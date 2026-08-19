@@ -1,5 +1,5 @@
 
-//Q1--------------------------------
+//-Q1--------------------------------
 
 let fs=require("fs");
 
@@ -7,13 +7,13 @@ fs.writeFileSync("welcome.txt","Welcome to Backend Development!")
 
 console.log("file created successfully")
 
-//Q2---------------------------------
+//-Q2---------------------------------
 
 let data=fs.readFileSync("welcome.txt")
 
 console.log(data.toString())
 
-//Q6---------------------------------
+//-Q6---------------------------------
 
 console.log("start")
 
